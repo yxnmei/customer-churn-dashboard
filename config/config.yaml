@@ -1,0 +1,33 @@
+project:
+  name: Customer Churn Prediction
+  version: 1.0.0
+
+data:
+  raw_dir: data/01-raw
+  preprocessed_dir: data/02-preprocessed
+  features_dir: data/03-features
+  predictions_dir: data/04-predictions
+
+model:
+  random_state: 42
+  test_size: 0.2
+  cv_folds: 5
+
+features:
+  tenure_bins:
+    - 0
+    - 12
+    - 24
+    - 48
+    - 72
+  tenure_labels:
+    - New
+    - Mid
+    - Established
+    - Loyal
+  charge_quantiles: 4
+
+business:
+  avg_monthly_charge: 64.76
+  intervention_cost: 50
+  save_rate: 0.30
