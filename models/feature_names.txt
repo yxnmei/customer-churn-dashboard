@@ -1,0 +1,29 @@
+gender
+SeniorCitizen
+Partner
+Dependents
+tenure
+PhoneService
+MultipleLines
+InternetService
+OnlineSecurity
+OnlineBackup
+DeviceProtection
+TechSupport
+StreamingTV
+StreamingMovies
+Contract
+PaperlessBilling
+MonthlyCharges
+TotalCharges
+TenureGroup
+ServiceCount
+HasSupportServices
+IsStableCustomer
+MonthlyChargeTier
+PricePerService
+SeniorWithoutSupport
+NewCustomerHighCharge
+Payment_Credit card (automatic)
+Payment_Electronic check
+Payment_Mailed check
