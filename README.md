@@ -2,6 +2,8 @@
 
 A production-ready ML system for predicting customer churn with interactive dashboard and model interpretability.
 
+**[View Live Dashboard →](https://customer-churn-dashboard-fxsckaohkjfmxs9c8b2me5.streamlit.app/)**
+
 ## 🎯 Project Overview
 
 Predicts which customers will churn and explains why, enabling proactive retention strategies.
@@ -173,6 +175,6 @@ Adjust customer attributes and see churn probability update instantly:
 
 Deployed on **Streamlit Community Cloud**
 
-Live Demo: []
+Live Demo: [https://customer-churn-dashboard-fxsckaohkjfmxs9c8b2me5.streamlit.app/]
 
 *Built as part of data science portfolio showcasing ML engineering, model interpretability, and business value creation.*
